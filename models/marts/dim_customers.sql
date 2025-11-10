@@ -4,7 +4,7 @@ select * from {{ ref('stg_jaffle_shop__customers') }}
 
 ),
 
-oders as(
+orders as(
 
     select * from {{ ref('stg_jaffle_shop__orders') }}
 
